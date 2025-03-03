@@ -1,0 +1,92 @@
+<html>
+<head>
+    <title>Product Listing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+	}
+.product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+                }
+        .product img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+ .product {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            width: 250px;
+            text-align: center;
+        }
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product p {
+            color: #555;
+            font-size: 14px;
+        }
+        .product .price {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            margin: 10px 0;
+        }
+        .product button {
+            background: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .product button:hover
+       {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Product Listing</h1>
+        <div class="product-grid">
+            <div class="product">
+                <img src="C:\Users\dhivy\OneDrive\Desktop\download.jpg" alt="Product 1">
+                <h2>Product 1</h2>
+                <p>Apple</p>
+                <p class="price">Rs.100/Kg</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="C:\Users\dhivy\OneDrive\Desktop\download (1).jpg" alt="Product 2">
+                <h2>Product 2</h2>
+                <p>Strawberry</p>
+                <p class="price">Rs.199/Kg</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="C:\Users\dhivy\OneDrive\Desktop\download (2).jpg" alt="Product 3">
+                <h2>Product 3</h2>
+                <p>Mango</p>
+                <p class="price">Rs.150/Kg</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
